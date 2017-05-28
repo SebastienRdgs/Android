@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="rodrigues.medicament">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="rodrigues.medicament.Controleur.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="rodrigues.medicament.Controleur.ListerMedic"
+            android:label="@string/btnSrchMedic"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="rodrigues.medicament.Controleur.ListerFamille"
+            android:label="@string/btnSrchFamille"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="rodrigues.medicament.Controleur.AjouterFamille"
+            android:label="@string/btnAjouterFam"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="rodrigues.medicament.Controleur.AjouterMedicament"
+            android:label="@string/btnAjouterFam"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="rodrigues.medicament.Controleur.ModifierMedicament"
+            android:label="@string/btnModifierFam"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="rodrigues.medicament.Controleur.AjouterComposant"
+            android:label="@string/btnModifierFam"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="rodrigues.medicament.Controleur.ListerComposant"
+            android:label="@string/btnModifierFam"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="rodrigues.medicament.Controleur.ModifierFamille"
+            android:label="@string/btnModifierFam"
+            android:theme="@style/AppTheme" >
+        </activity>
+    </application>
+
+</manifest>

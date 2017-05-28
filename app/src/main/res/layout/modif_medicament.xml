@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:weightSum="1"
+    android:baselineAligned="false"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="281dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:ems="10"
+        android:id="@+id/num"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="5"
+        tools:inputType="text|textPersonName|number"
+        android:hint="@string/numDepot" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/lib"
+        android:layout_weight="0.02"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="5"
+        tools:inputType="text|textPersonName|number"
+        android:hint="@string/lib"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/contre"
+        android:layout_weight="0.02"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="5"
+        tools:inputType="text|textPersonName|number"
+        android:hint="@string/contreindic"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/prix"
+        android:layout_weight="0.02"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="5"
+        tools:inputType="text|textPersonName|number"
+        android:hint="@string/prix"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/effet"
+        android:layout_weight="0.02"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="5"
+        tools:inputType="text|textPersonName|number"
+        android:hint="@string/effet"/>
+
+    <Button
+        android:text="@string/compo"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:id="@+id/btnCompo" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.02">
+
+        <Button
+            android:text="@string/quit"
+            android:layout_width="wrap_content"
+            android:layout_height="39dp"
+            android:id="@+id/quitter" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:id="@+id/btnModifMedic"
+            android:elevation="0dp"
+            android:text="@string/btnModifierFam"
+            android:layout_height="41dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:id="@+id/btnSuprMedic"
+            android:elevation="0dp"
+            android:text="@string/btnSupr"
+            android:layout_height="41dp" />
+    </GridLayout>
+
+</LinearLayout>
+</ScrollView>

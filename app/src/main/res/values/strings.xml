@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Medicament</string>
+    <string name="action_settings">Settings</string>
+    <string name="btnSrchMedic">Medicament</string>
+    <string name="btnSrchFamille">Famille</string>
+    <string name="btnAjouterComp">Ajouter</string>
+    <string name="btnAjouterFam">Ajouter</string>
+    <string name="btnModifierFam">Modifier</string>
+    <string name="btnAjouterMedic">Ajouter</string>
+    <string name="quit">Quitter</string>
+    <string name="add">Ajouter</string>
+    <string name="num">Saisir ici un id</string>
+    <string name="numDepot">Saisir ici un numéro de depot legal</string>
+    <string name="lib">Saisir ici un libellé</string>
+    <string name="prix">Saisir ici un prix d echantillon</string>
+    <string name="contreindic">Saisir ici une contre indication</string>
+    <string name="effet">Saisir ici un effet</string>
+    <string name="btnSupr">Supprimer</string>
+    <string name="compo">Composants</string>
+
+</resources>
